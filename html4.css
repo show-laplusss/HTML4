@@ -39,6 +39,16 @@
   height:1400px;
   background-color:green;
 }
+.blog{
+  width:600px;
+  height:600px;
+  background-color:limegreen;
+}
+.side{
+  width:240px;
+  height:600px;
+  background-color:palegreen;
+}
 
 
 .fooder{

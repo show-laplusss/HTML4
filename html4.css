@@ -105,8 +105,77 @@ main{
   color: #fff;
   font-size: 11px;
 }
+.pagination{
+  text-align: center;
+  padding-top: 50px;
+}
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0.5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+
 .side{
   width: 230px;
+}
+.com-head{
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+.side-cont{
+  padding: 50px 0;
+}
+.pop-text,
+.cat-text{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 5px;
+}
+.pop-text:last-child,
+.cat-text:last-child{
+  margin: 0;
+  padding: 0;
+  border:none;
+}
+.inst .side-cont{
+  display: flex;
+  flex-wrap:wrap;
+}
+.inst-box{
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.inst-box:nth-child(odd){
+  margin: 0 10px 10px 0;
+}
+.inst-box:nth-child(1){
+  background-image: url(img/airport.jpg);
+}
+.inst-box:nth-child(2){
+  background-image: url(img/japan.jpg);
+}
+.inst-box:nth-child(3){
+  background-image: url(img/snow.jpg);
+}
+.inst-box:nth-child(4){
+  background-image: url(img/japan2.jpg);
+}
+.inst-box:nth-child(5){
+  background-image: url(img/lake.jpg);
+}
+.inst-box:nth-child(6){
+  background-image: url(img/road.jpg);
 }
 
 footer{
